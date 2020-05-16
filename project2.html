@@ -1,0 +1,338 @@
+<html>
+<head>
+<link href="homepage_style.css" type="text/css" rel="stylesheet"/>
+</head>
+<style>
+#header_layout
+{
+ width:100%;
+ min-width:980px;
+ background-color:#4c66a4;
+}
+#background
+{
+background-color:#4c66a4;
+}
+#header
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ height:85px;
+}
+#header li
+{
+ list-style-type:none;
+ float:left;
+ text-align:left;
+ color:white;
+}
+#header #sitename
+{
+ margin-top:40px;
+}
+#header #sitename a
+{
+ color:white;
+ text-decoration:none;
+ font-size:35px;
+ font-weight:1000;
+}
+#header form
+{
+ margin-top:20px;
+ float:right;
+}
+#header form li
+{
+ font-size:13px;
+ margin-left:15px;
+}
+#header form li a
+{
+ color:#82aee8;
+ text-decoration:none;
+}
+#header form li input[name="email_phone"]
+
+{
+ margin-top:3px;
+ margin-bottom:3px;
+ width:150px;
+ border:1px solid #08298A;
+ height:25px;
+ padding-left:3px;
+}
+#header form li input[name="password"]
+
+{
+ margin-top:3px;
+ margin-bottom:3px;
+ width:150px;
+ border:1px solid #08298A;
+ height:25px;
+ padding-left:3px;
+}
+#header form li input[name="login"]
+{
+ height:25px;
+ margin-top:20px;
+ margin-bottom:10px;
+ background-color:#084B8A;
+ color:white;
+ border:1px solid #08298A;
+}
+#assert
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:980px;
+}
+#assert div
+{
+ float:left;
+ font-family: helvetica, arial, sans-serif;
+  
+}
+#assert #div1
+{
+ margin-top:30px;
+ width:590px;
+ text-align:left;
+}
+#assert #div1 p
+{
+ font-size:20px;
+ font-family:arial;
+ margin:0px;
+ color:black;
+}
+#assert #div2
+{
+ margin-top:10px;
+ width:390px;
+ text-align:left;
+}
+#assert #div2 h1
+{
+ margin:0px;
+ font-size:37px;
+ color:#2E2E2E;
+}
+#assert #div2 p
+{
+ font-size:18px;
+ color:#2E2E2E;
+}
+#assert #div2 li
+{
+ list-style-type:none;
+ margin-top:10px;
+}
+#assert #div2 li #firstname
+{
+ width:49%;
+}
+#assert #div2 li #surname
+{
+ margin-left:2%;
+ width:49%;
+}
+#assert #div2 li input[type="text"]
+{
+ width:100%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+#assert #div2 li input[type="password"]
+{
+ width:100%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+#assert #div2 li select
+{
+ padding:4px;
+ float:left;
+}
+#assert #div2 li a
+{
+ margin-left:10px;
+ width:150px;
+ color:#045FB4;
+ text-decoration:none;
+ font-size:11px;
+ display: inline-block;
+ vertical-align: middle;
+ line-height:15px;
+}
+#assert #div2 li a:hover
+{
+ text-decoration:underline;
+}
+#assert #div2 li
+{
+ color:#2E2E2E;
+ font-size:18px;
+}
+#assert #div2 #terms
+{
+ color:#424242;
+ font-size:11px;
+}
+#assert #div2 #terms a
+{
+ display:inline;
+ margin:0px;
+}
+#assert #div2 li input[type="submit"]
+{
+ width:205px;
+ height:45px;
+ text-align:center;
+ font-size:19px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+ font-weight: bold !important;
+ background: linear-gradient(#67ae55, #578843);
+ background-color: #69a74e;
+ box-shadow: inset 0 1px 1px #a4e388;
+ border-color: #3b6e22 #3b6e22 #2c5115;
+ border: 1px solid;
+ border-radius: 5px;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#assert #div2 #create_page
+{
+ color:#424242;
+ font-size:13px;
+ font-weight:bold;
+}
+#assert #div2 #create_page a
+{
+ display:inline;
+ margin:0px;
+ font-size:13px;
+}
+#footer_assert
+{
+ width:100%;
+ clear:both;
+ float:left;
+ margin-top:30px;
+ min-width:995px;
+ background-color:white;
+ text-align:left;
+}
+#footer1
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ border-bottom:1px solid #E6E6E6;
+ height:30px;
+ line-height:30px;
+ font-size:12px;
+ color:#848484;
+}
+#footer1 a
+{
+ color:#365899;
+ display:inline;
+ margin-left:10px;
+ text-decoration:none;
+}
+#footer1 a:hover
+{
+ text-decoration:underline;
+}
+#footer2
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ font-size:12px;
+ color:#848484;
+}
+#footer2 a
+{
+ color:#365899;
+ display:inline-block;
+ margin:5px;
+ margin-left:0px;
+ min-width:80px;
+ text-decoration:none;
+}
+#footer2 a:hover
+{
+ text-decoration:underline;
+}
+
+</style>
+<body>
+<div id="header_layout">
+    <div id="header">
+       <li id="sitename"><a href="http://facebook.com">facebook</a></li>
+       <form action="post">
+       <li>Email or Phone<br><input type="text" name="email_phone"></li>
+       <li>Password<br><input type="password" name="password"><br>
+       <a href="">Forgotten account?</a></li>
+       <li><input type="submit" name="login" value="Log In"></li>
+ </form>
+ </div>
+</div>
+<main id="background">
+<div id="assert">
+      <div id="div1">
+         <h1>Recent logins</h1>
+         <p>Click to add an account.</p>
+         <button class="click" name="add account">add account</button>
+      </div>
+<div id="div2">
+       <h1>Create an account</h1>
+       <p>It's quick and easy.</p>
+<li><input type="text" placeholder="First Name" id="firstname"><input type="text" placeholder="Surname" id="surname"></li>
+<li><input type="text" placeholder="Mobile number or email address"></li>
+<li><input type="text" placeholder="Re-enter mobile number or email address"></li>
+<li><input type="password" placeholder="New password"></li>
+<p>Birthday</p>
+<li>
+<select><option>Day</option></select>
+<select><option>Month</option></select>
+<select><option>Year</option></select>
+<a href="">?</a>
+</li>
+<p>Gender</p>
+<li><input type="radio">Female <input type="radio">Male<a href="">?</a></li>
+<li id="terms">By clicking Sign Up,  <a href="">Terms</a>  <a href="">Data Policy</a>, <a href="">Cookie Use</a>.You may receive SMS notifications from us and can opt out at any time.</li>
+<li><input type="submit" value="Sign Up"></li>
+<li id="create_page"><a href="">Create a Page</a> for a celebrity, band or business.</li>
+</div>
+
+</div>
+</main>
+<div id="footer_assert">
+
+<div id="footer1">
+English (UK) <a href="">??????</a><a href="">??????</a><a href=""> ????</a><a href="">?????</a><a href="">?????</a><a href="">?????</a><a href="">??????</a><a href="">???????</a><a href="">?????</a><a href="">??????</a><a href=""><button class="w3-button w3-black">+</button></a>
+</div>
+<div id="footer2">
+<a href="">Sign Up</a><a href="">Log In</a><a href="">Messenger</a><a href="">facebooklite</a><a href="">watch</a><a href="">People</a><a href="">Pages</a><a href="">Page categories</a><a href="">Places</a><a href="">Games</a><a href="">Locations</a><a href="">Marketplace</a><a href="">Groups</a><a href="">Portal</a><a href="">Instagram</a><a href="">Local</a><a href="">Fundraisers</a><a href="">Services</a><a href="">About</a><a href="">Create ad</a><a href="">Create page</a><a href="">Developers</a><a href="">Careers</a><a href="">Privacy</a><a href="">Cookies</a><a href="https://www.facebook.com/help/568137493302217">AdChoices</a>
+<a href="">Terms</a><a href="">Help</a>
+<p>Facebook © 2020</p>
+</div>
+
+</body>
+</html>
